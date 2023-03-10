@@ -74,7 +74,7 @@ fetch('https://api.github.com/users/Agustin-Torelli')
 
 
     const actualizarGit = (json) => {
-        let valorgit = document.getElementById("githubR");
+        let valorgit = document.getElementById("github");
         valorgit.textContent=json.login;
     }
     
